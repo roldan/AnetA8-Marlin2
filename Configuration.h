@@ -501,9 +501,9 @@
 
   // ANET A8 Standard Extruder at 210 Degree Celsius and 100% Fan
   //(measured after M106 S255 with M303 E0 S210 C8)
-  #define DEFAULT_Kp 21.0
-  #define DEFAULT_Ki 1.25
-  #define DEFAULT_Kd 86.0
+  #define DEFAULT_Kp 35.96
+  #define DEFAULT_Ki 3.57
+  #define DEFAULT_Kd 90.59
 
 #endif // PIDTEMP
 
@@ -554,9 +554,9 @@
 
   // ANET A8
   // original Bed + 0.3mm Heat conducting into 4mm borosilicate (PID-Autotune: M303 E-1 S60 C5):
-  #define DEFAULT_bedKp 295.00
-  #define DEFAULT_bedKi 35.65
-  #define DEFAULT_bedKd 610.21
+  #define DEFAULT_bedKp 200.52
+  #define DEFAULT_bedKi 39.48
+  #define DEFAULT_bedKd 678.95
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
